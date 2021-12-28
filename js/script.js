@@ -1,3 +1,20 @@
+//vvv you can ALSO do functions like this too vvv//
+function doCoolStuff(){ 
+  var currentClassName =document.getElementById('cool').className;
+
+  if (currentClassName == 'cool'){
+    document.getElementById('cool').className = 'cool red';
+    else {
+    document.getElementById('cool').className = 'cool';
+  };
+
+
+  
+  //change class name
+  document.getElementById('cool').className = 'cool red'; }
+
+
+//vv you can do functions like this vv//
  var sayMyName = function(name){
   alert('my name is: '+name)
  }
