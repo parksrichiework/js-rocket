@@ -2,6 +2,10 @@ body{
 	font-family: helvetica, sans-serif;
 }
 
+h1{
+	color: indianred;
+}
+
 .left{
 	position: fixed;
 	background-color: aquamarine;
@@ -107,7 +111,7 @@ body.body-state5 .state5{display: block;}
 
 
 .ground{
-	background-color: brown;
+	background-color: indianred;
 	position: absolute;
 	bottom: 0px;
 	left: 0;
@@ -120,8 +124,8 @@ body.body-state5 .state5{display: block;}
 .hol-up{
 	position: absolute;
 	bottom: 220px;
-	top: 455px;
-	left:  185px;
+	top: 340px;
+	left: 50%;
 	background: url(../img/hol-up.png) no-repeat 0 0;
 	width: 135px;
 	height: 135px;
