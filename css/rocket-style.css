@@ -124,7 +124,7 @@ body.body-state5 .state5{display: block;}
 .hol-up{
 	position: absolute;
 	bottom: 220px;
-	top: 340px;
+	top: 626px;
 	left: 50%;
 	background: url(../img/hol-up.png) no-repeat 0 0;
 	width: 135px;
@@ -140,12 +140,12 @@ body.body-state5 .state5{display: block;}
 .not-this{
 	position: absolute;
 	bottom: 220px;
-	top: 455px;
-	left:  40px;
+	top: 626px;
+	left: 30%;
 	background: url(../img/not-this.png) no-repeat 0 0;
 	width: 135px;
 	height: 135px;
-	/*margin-left: 0px;*/
+	margin-left: 0px;
 	display: none;
 }
 
