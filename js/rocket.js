@@ -10,6 +10,17 @@ var changeState = function(state) {
 			timer = setInterval(function(){
 				document.getElementById('countdown').innerHTML = countdownNumber;
 				countdownNumber= countdownNumber -1;
+
+				if (countdownNumber > 4 && countdownNumber <=7){
+					document.getElementById('hol-up').className = "hol-up show"
+				} else{
+					document.getElementById('hol-up').className = "hol-up"
+				};
+				if(countdownNumber > 1 && countdownNumber <=3){
+					document.getElementById('not-this').className = "not-this show"
+				} else{
+					document.getElementById('not-this').className = "not-this"
+				};
 				if (countdownNumber <=0){
 					changeState(3);
 				};
@@ -20,10 +31,11 @@ var changeState = function(state) {
 				{
 					var randomNumber= Math.round(Math.random()*10);
 					console.log('randomNumber:', randomNumber)
-					if (randomNumber > 5) {
+					//success
+					if (randomNumber > 2) {
 						changeState(4);
 					} else {
-						changeState(5);
+						changeState(5); //oh no!!
 					}
 			}, 2000);
 		};

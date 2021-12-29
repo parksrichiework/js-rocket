@@ -1,3 +1,7 @@
+body{
+	font-family: helvetica, sans-serif;
+}
+
 .left{
 	position: fixed;
 	background-color: aquamarine;
@@ -6,6 +10,32 @@
 	top: 0;
 	left: 0px;	
 }
+
+.interface{
+	text-align: center;
+	padding: 20px;
+
+}
+
+a.button{
+	display: inline-block;
+	background: lavender;
+	text: black;
+	padding: 15px 30px;
+	text-transform: uppercase;
+	border-radius: 10px ;
+	text-decoration: none;
+	transition: color, 300ms;
+
+}
+
+a.button:hover{
+	background: green;
+	color:  white;
+}
+
+
+/*RIGHT SIDE*/
 
 .right{
 position: fixed;
@@ -17,23 +47,43 @@ position: fixed;
 }
 
 .rocket{
-	position: absolute;
-	left:  50%;
-	bottom:  20px;
-	width: 20px;
-	height: 100px;
-	background-color: greenyellow;
-	transition: bottom 10000ms;
+	    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    width: 270px;
+    height: 270px;
+    margin-left: -127px;
+    background: url(../img/state1.png) no-repeat 0 0;
+    transition: bottom 10000ms;
 }
 
-.rocket.flying{
-	bottom: 1000px;
+/*background img*/
+body.body-state2 .rocket{
+	background: url(../img/state2.png) no-repeat 0 0;
+
+}
+body.body-state3 .rocket{
+	background: url(../img/state3.png) no-repeat 0 0;
+
+}
+body.body-state4 .rocket{
+	background: url(../img/state4.png) no-repeat 0 0;
+
+}
+
+body.body-state5 .rocket{
+	background:  url(../img/state5.png) no-repeat 0 0;
 }
 
 body.body-state1 .rocket{
 	transition: none;
 
 }
+
+.rocket.flying{
+	bottom: 1000px;
+}
+
 
 body.body-state3 .rocket,
 body.body-state4 .rocket{
@@ -67,10 +117,39 @@ body.body-state5 .state5{display: block;}
 
 }
 
+.hol-up{
+	position: absolute;
+	bottom: 220px;
+	top: 455px;
+	left:  185px;
+	background: url(../img/hol-up.png) no-repeat 0 0;
+	width: 135px;
+	height: 135px;
+	margin-left: 0px;
+	display: none;
+}
+
+.hol-up.show{
+	display: block;
+}
+
+.not-this{
+	position: absolute;
+	bottom: 220px;
+	top: 455px;
+	left:  40px;
+	background: url(../img/not-this.png) no-repeat 0 0;
+	width: 135px;
+	height: 135px;
+	/*margin-left: 0px;*/
+	display: none;
+}
+
+.not-this.show{
+	display: block;
+}
+
 a{
 
 }
 
-a.button{
-
-}
