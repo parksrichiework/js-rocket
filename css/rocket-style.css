@@ -3,12 +3,12 @@ body{
 }
 
 h1{
-	color: indianred;
+	color: #D5BFFF;
 }
 
 .left{
 	position: fixed;
-	background-color: aquamarine;
+	background-color: #6E53A1;
 	width:  50%;
 	height: 100%;
 	top: 0;
@@ -34,8 +34,8 @@ a.button{
 }
 
 a.button:hover{
-	background: green;
-	color:  white;
+	background: aquamarine;
+	color:  #6E53A1;
 }
 
 
@@ -111,7 +111,7 @@ body.body-state5 .state5{display: block;}
 
 
 .ground{
-	background-color: indianred;
+	background-color: #D5BFFF;
 	position: absolute;
 	bottom: 0px;
 	left: 0;
@@ -121,17 +121,18 @@ body.body-state5 .state5{display: block;}
 
 }
 
+
 .hol-up{
-	position: absolute;
-	bottom: 220px;
-	top: 626px;
+	position:  absolute;
+	bottom:  80px;
 	left: 50%;
 	background: url(../img/hol-up.png) no-repeat 0 0;
-	width: 135px;
-	height: 135px;
-	margin-left: 0px;
+	width:  270px;
+	height:  270px;
+	margin-left: -10px;
 	display: none;
 }
+
 
 .hol-up.show{
 	display: block;
@@ -139,13 +140,12 @@ body.body-state5 .state5{display: block;}
 
 .not-this{
 	position: absolute;
-	bottom: 220px;
-	top: 626px;
+	bottom: 80px;
 	left: 30%;
 	background: url(../img/not-this.png) no-repeat 0 0;
-	width: 135px;
-	height: 135px;
-	margin-left: 0px;
+	width: 270px;
+	height: 270px;
+	margin-left: -46px;
 	display: none;
 }
 
@@ -156,4 +156,6 @@ body.body-state5 .state5{display: block;}
 a{
 
 }
+
+
 
