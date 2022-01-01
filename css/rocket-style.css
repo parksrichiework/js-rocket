@@ -50,7 +50,8 @@ position: fixed;
 	right: 0px;	
 }
 
-.rocket{
+/*ORIGINAL ICON STYLING. REVERT TO THIS*/
+/*.rocket{
 	    position: absolute;
     left: 50%;
     bottom: 0px;
@@ -59,25 +60,58 @@ position: fixed;
     margin-left: -127px;
     background: url(../img/state1.png) no-repeat 0 0;
     transition: bottom 10000ms;
+    transform: scale;
+}*/
+
+.rocket{
+	    position: absolute;
+    left: 50%;
+    bottom: -385px;
+    width: 1080px;
+    height: 1080px;
+    margin-left: -518px;
+    background: url(../img/1080/state1.png) no-repeat 0 0;
+    transition: bottom 10000ms;
+    transform: scale(0.25);
 }
+
 
 /*background img*/
-body.body-state2 .rocket{
+/*body.body-state2 .rocket{
 	background: url(../img/state2.png) no-repeat 0 0;
 
+}*/
+body.body-state2 .rocket{
+	background: url(../img/1080/state2.png) no-repeat 0 0;
+
 }
-body.body-state3 .rocket{
+
+
+/*body.body-state3 .rocket{
 	background: url(../img/state3.png) no-repeat 0 0;
 
+}*/
+body.body-state3 .rocket{
+	background: url(../img/1080/state3.png) no-repeat 0 0;
+
 }
-body.body-state4 .rocket{
+
+/*body.body-state4 .rocket{
 	background: url(../img/state4.png) no-repeat 0 0;
 
+}*/
+body.body-state4 .rocket{
+	background: url(../img/1080/state4.png) no-repeat 0 0;
+
 }
 
-body.body-state5 .rocket{
+/*body.body-state5 .rocket{
 	background:  url(../img/state5.png) no-repeat 0 0;
+}*/
+body.body-state5 .rocket{
+	background:  url(../img/1080/state5.png) no-repeat 0 0;
 }
+
 
 body.body-state1 .rocket{
 	transition: none;
